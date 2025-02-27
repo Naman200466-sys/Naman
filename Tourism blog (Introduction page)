@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Norway - Your Ultimate Travel Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .introduction {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #00796b;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore Norway</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#details">Details</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<div class="introduction" id="home">
+    <h2>Welcome to Your Ultimate Travel Guide to Norway!</h2>
+    <p>Norway is a land of stunning natural beauty, rich history, and vibrant culture. From the breathtaking fjords to the northern lights, this Scandinavian gem offers a plethora of experiences for every traveler. Join us as we explore the best places to visit, local cuisine, travel tips, and much more!</p>
+</div>
+
+<div class="introduction" id="details">
+    <h2>Travel Details</h2>
+    <p>In this blog, you will find detailed guides on:</p>
+    <ul>
+        <li>Top destinations in Norway, including Oslo, Bergen, and the Lofoten Islands.</li>
+        <li>Outdoor activities such as hiking, skiing, and fishing.</li>
+        <li>Cultural experiences, including festivals, museums, and local traditions.</li>
+        <li>Travel tips, including transportation, accommodation, and local cuisine.</li>
+    </ul>
+</div>
+
+<div class="introduction" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, suggestions, or would like to share your own travel experiences in Norway, feel free to reach out!</p>
+    <p>Email: <a href="mailto:info@explorenorway.com">info@explorenorway.com</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2023 Explore Norway | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

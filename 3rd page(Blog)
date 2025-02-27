@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Nourishment: Traditional Finnish Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-box {
+            width: 40%;
+        }
+        .image-box img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .content {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NORDIC NOURISHMENT: TRADITIONAL FINNISH FOOD</h1>
+
+    <div class="container">
+
+        <div class="image-box">
+            <img src="path_to_first_image.jpg" alt="Traditional Finnish Delicacies">
+        </div>
+
+        <div class="image-box">
+            <img src="path_to_second_image.jpg" alt="Finnish Baked Goods">
+        </div>
+    </div>
+
+    <div class="content">
+        <p>Finnish cuisine is notable for generally combining traditional country fare and haute cuisine with contemporary continental-style cooking.</p>
+
+        <h2>Cinnamon Roll</h2>
+        <p>A cinnamon roll consists of a rolled sheet of yeast-leavened dough onto which a cinnamon and sugar mixture is sprinkled over a thin coat of butter. The dough is then rolled, cut into individual portions, and baked. The deep-fried version is cinnamon roll or cinnamon bun doughnut. Its main ingredients are flour, cinnamon, sugar, and butter, which provide a robust and sweet flavor.</p>
+
+        <h2>Finnish Desserts</h2>
+        <p>Finnish desserts are often simple, hearty, and made with fruits and berries that can grow in colder climates. They are also influenced by Russian and Eastern European cultures, and commonly served with nuts, cream, and berries.</p>
+    </div>
+
+</body>
+</html>

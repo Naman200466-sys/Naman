@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism in Finland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #0984e3;
+            font-size: 3em;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .destination {
+            background-color: #ffdd57;
+            border-radius: 10px;
+            margin: 10px;
+            flex: 1 1 30%;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #d63031;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tourism</h1>
+
+    <div class="container">
+        <div class="destination">
+            <h2>Helsinki</h2>
+            <img src="helsinki-image-url.jpg" alt="Helsinki">
+            <p>Helsinki is the capital and largest city in the country, although it is relatively small compared to other European capitals. Helsinki is considered a maritime city and is popularly called the daughter of the Baltic.</p>
+        </div>
+        <div class="destination">
+            <h2>Tampere</h2>
+            <img src="tampere-image-url.jpg" alt="Tampere">
+            <p>Tampere is a city in southern Finland. It sits between Näsijärvi Lake and Pyhäjärvi Lake, with the Tammerkoski rapids in between. The Vapriikki Museum Center houses several museums.</p>
+        </div>
+        <div class="destination">
+            <h2>Jyväskylä</h2>
+            <img src="jyvaskyla-image-url.jpg" alt="Jyväskylä">
+            <p>Jyväskylä is a city in Finland and the regional capital of Central Finland. It is located in the Finnish Lakeland. The population of Jyväskylä is approximately 148,000, while the subregion has a population of approximately 191,000.</p>
+        </div>
+        <div class="destination">
+            <h2>Lapland</h2>
+            <img src="lapland-image-url.jpg" alt="Lapland">
+            <p>Northern Finland, mainly Lapland, has a strong profile as an internationally popular winter holiday destination, which is why the nickname "winter wonderland" has also been used.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Tourism Guide</p>
+    </div>
+
+</body>
+</html>
